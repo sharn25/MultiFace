@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+    <title>MultiFace</title>
+    <title-cn>multiface</title-cn>
+    <author>SBDev</author>
+    <designer>sharn25</designer>
+    <screen>HWHD03</screen>
+    <version>4.1.1</version>
+    <font>Default</font>
+    <font-cn>默认</font-cn>
+    <briefinfo>{"zh_CN":"Port of MIband 4 watchface"}</briefinfo>
+</HwTheme>

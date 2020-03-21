@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_LEFT" label="layer 15 - 静态图" res_dir_id="A016" y="0" filter_color="0" x="0" data_type="DATA_BACKGROUND" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 14 - 数字选图" res_dir_id="A015" y="10" filter_color="0" x="4" data_type="DATA_HOUR_HIGH" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 13 - 数字选图" res_dir_id="A014" y="10" filter_color="0" x="29" data_type="DATA_HOUR_LOW" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 12 - 数字选图" res_dir_id="A013" y="10" filter_color="0" x="69" data_type="DATA_MINITE_HIGH" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 11 - 数字选图" res_dir_id="A012" y="10" filter_color="0" x="94" data_type="DATA_MINITE_LOW" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_CENTER" number_of_digits="0" label="layer 10 - 数字选图" res_dir_id="A011" y="4" filter_color="0" x="59" data_type="DATA_BATTERYNUM" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 9 - 数字选图" res_dir_id="A010" y="81" filter_color="0" x="102" data_type="DATA_MONTH" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 8 - 数字选图" res_dir_id="A009" y="81" filter_color="0" x="79" data_type="DATA_DATE" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_RIGHT" label="layer 7 - 静态图" res_dir_id="A008" y="58" filter_color="0" x="116" data_type="DATA_WEEK" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget align="DIGIT_ALIGN_CENTER_RIGHT" mutil_widget_count="3" data_type2="DATA_BLUETOOTH_STATUS" internal_position="DIGIT_ALIGN_CENTER_LEFT" label="layer 6 - 多组件" res_dir_id="A005" y="103" filter_color="0" x="116" data_type1="DATA_UNREADMSG_STATE" data_type="DATA_DISTURB" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget align="DIGIT_ALIGN_CENTER_RIGHT" mutil_widget_count="3" data_type2="DATA_BLUETOOTH_STATUS" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A006" y="103" filter_color="0" x="116" data_type1="DATA_DISTURB" data_type="DATA_UNREADMSG_STATE" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget align="DIGIT_ALIGN_CENTER_RIGHT" mutil_widget_count="3" data_type2="DATA_UNREADMSG_STATE" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A007" y="103" filter_color="0" x="116" data_type1="DATA_DISTURB" data_type="DATA_BLUETOOTH_STATUS" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage align="DIGIT_ALIGN_CENTER_CENTER" number_of_digits="0" label="layer 5 - 数字选图" res_dir_id="A004" y="111" filter_color="0" x="26" data_type="DATA_STEPS" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_LEFT" label="layer 4 - 静态图" res_dir_id="A003" y="0" filter_color="0" x="0" data_type="DATA_BATTERY" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_CENTER" label="layer 3 - 静态图" res_dir_id="A002" y="151" filter_color="65535" x="95" data_type="DATA_DISTANCE" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_CENTER" label="layer 2 - 静态图" res_dir_id="A001" y="208" filter_color="65535" x="28" data_type="DATA_HEARTRATE" offset_distance_y="0" type="static"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_CENTER" label="layer 1 - 静态图" res_dir_id="A000" y="208" filter_color="65535" x="89" data_type="DATA_CALORIE" offset_distance_y="0" type="static"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
